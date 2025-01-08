@@ -60,8 +60,7 @@ function gerarNumeroAleatorio() {
 }
 
 function limparCampo() {
-    chute = document.querySelector('input');
-    chute.value = '';
+    document.getElementById('campoNumero').value = '';
 }
 
 function reiniciarJogo() {
